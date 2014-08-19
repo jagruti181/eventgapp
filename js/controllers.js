@@ -44,6 +44,8 @@ angular.module('starter.controllers', ['restservicemod'])
 
   // Perform the login action when the user submits the login form
     var login=function(data, status){
+        console.log("Login show ");
+        $scope.loginlogout="Logout";
         console.log(data);
     };
   $scope.doLogin = function() {
